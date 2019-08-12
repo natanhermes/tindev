@@ -31,7 +31,7 @@ io.on('connection', socket => {
   connectedUsers[user] = socket.id;
 
 });
-mongoose.connect('mongodb+srv://natandev:devadmin1812@cluster0-dst4p.mongodb.net/bancodev', {
+mongoose.connect('mongodb+srv://:@cluster0-dst4p.mongodb.net/bancodev', {
   useNewUrlParser: true
 });
 
